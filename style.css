@@ -1,0 +1,27 @@
+/* This is the Default section  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary_color: rgba(4,9,30,0.7);
+
+}
+
+/* Section-1:- starting of the website  */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(var(--primary_color),var(--primary_color)),url(img/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+
