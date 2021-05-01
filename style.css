@@ -107,11 +107,16 @@ nav img{
     background: #f44336;
     transition: 1s ease;
 }
+/* This is for the Hide of the Icons from the full screen  */
+
+nav .fa{
+    display: none;
+}
 
 /* This is for the small screen devices */
 @media(max-width : 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 25px;
     }
     .text-box p{
         font-size: 10px;
@@ -121,7 +126,7 @@ nav img{
     }
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background: #f85e53;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -129,4 +134,12 @@ nav img{
         text-align: left;
         z-index: 2;
     }
+    /* Icons display In  small screen  */
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+    }
+    
 }
