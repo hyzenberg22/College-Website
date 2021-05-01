@@ -18,9 +18,9 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-            <div class="nav-links">
+            <div class="nav-links" id = "navLinks">
                 <!-- This is for the bar icon -->
-                <i class="fa fa-times"></i>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <!-- This is for the cross icon -->
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>World's Biggest University</h1>
@@ -38,5 +38,19 @@
             <a href="#" class="hero-btn">Visit Us to Know More</a>
         </div>
     </section>
+    
+<!-- ---java-Script Part---- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
 </body>
 </html>
