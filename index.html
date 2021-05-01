@@ -1,6 +1,7 @@
 <!-- This is the college website Made By Shubhajit sarkar -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,16 +10,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- This is for the font-family Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,800&display=swap"
+        rel="stylesheet">
     <!-- This is for the bootstarp icon for the nav in the small devides -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <!-- section:1  -->
+    <!-- ---------section:1-----------  -->
     <section class="header">
         <nav>
             <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-            <div class="nav-links" id = "navLinks">
+            <div class="nav-links" id="navLinks">
                 <!-- This is for the bar icon -->
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -34,23 +38,65 @@
         </nav>
         <div class="text-box">
             <h1>World's Biggest University</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, at omnis est debitis animi deserunt <br> officia natus quibusdam saepe veniam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, at omnis est debitis animi deserunt
+                <br> officia natus quibusdam saepe veniam!
+            </p>
             <a href="#" class="hero-btn">Visit Us to Know More</a>
         </div>
     </section>
-    
-<!-- ---java-Script Part---- -->
-<script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu()
-    {
-        navLinks.style.right="0";
-    }
-    function hideMenu(){
-        navLinks.style.right="-200px";
-    }
 
-</script>
+    <!-- --------Section-2 := This is for all the courses--------  -->
+    <section class="course ">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, aperiam!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam ipsum deleniti quo autem
+                    voluptates. Vitae dolorem placeat iure omnis.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam ipsum deleniti quo autem
+                    voluptates. Vitae dolorem placeat iure omnis.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam ipsum deleniti quo autem
+                    voluptates. Vitae dolorem placeat iure omnis.</p>
+            </div>
+
+        </div>
+    </section>
+<!-- ---------------This is the Section:-3= Campus----------------- -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo nulla iusto eos enim totam aspernatur rem doloremque! Laudantium, expedita!</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="/img/london.png" alt="Campus">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- ---java-Script Part---- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
 
 </body>
+
 </html>
