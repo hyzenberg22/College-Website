@@ -21,9 +21,6 @@
 
 
 /* Section-1:- starting of the website Heading */
-body{
-    height: 4000px;
-}
 .header{
     min-height: 100vh;
     width: 100%;
@@ -183,6 +180,11 @@ nav .fa{
     justify-content: space-between;
     
 
+}
+.course .course-row{
+    background: rgba(187, 241, 241, 0.144);
+    padding: 50px 30px 10px;
+    border-radius: 20px;
 }
 .course p{
     margin-bottom: 60px;
@@ -400,8 +402,9 @@ nav .fa{
 
 }
 
-.footer .h4{
-    margin-bottom: 40px;
+.footer h4{
+    
+    margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
 
@@ -409,11 +412,72 @@ nav .fa{
 
 .icons .fa{
     color: #000000;
-    margin: 0 13px;
+    margin: 10px 13px;
     cursor: pointer;
     padding: 18px 0;
 
 }
 .fa-heart-o{
     color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------This section is for the About-us Page------------------- */
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+
+}
+.sub-header h1{
+    margin-top: 100px;
+
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0 50px;
+
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+
+}
+.about-col img{
+    width: 100%;
+}
+
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+    transition: 0.5s;
+}
+.red-btn:hover{
+    color: white;
 }
