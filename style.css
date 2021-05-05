@@ -572,6 +572,12 @@ nav .fa{
 
 }
 
+@media(max-width: 700px){
+    .sub-header h1 {
+        font-size: 24px;
+    }
+}
+
 
 /* ----------------News Letter ----------------- */
 .news-letter{
@@ -581,7 +587,7 @@ nav .fa{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(208, 219, 254);
+    background: rgba(208, 219, 254, 0.571);
 }
 
 .news-letter h3{
@@ -607,3 +613,4 @@ nav .fa{
     padding: -10px, 0;
     margin: 15px 0;
 }
+
