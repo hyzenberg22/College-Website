@@ -280,7 +280,8 @@ nav .fa{
 /* -----------This is the section:-3 = Facilities------------- */
 
 /* ----------This is the old Fecilities---------- */
-/* .fecilities{
+/* --------This is also for the Course Section------------ */
+.fecilities{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -316,7 +317,7 @@ nav .fa{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
-} */
+}
 
 /* ----------This is the new section of the fecility------------ */
 
