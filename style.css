@@ -328,14 +328,15 @@ nav .fa{
     margin-bottom: -20px;
 }
 .fecility-head p{
-    padding: 25px 30px;
+    display: flex;
+    padding: 35px 50px;
     justify-content: center;
 }
 section .fecility {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: red;
+    
 
 }
 .container{
@@ -347,6 +348,7 @@ section .fecility {
     flex-wrap: wrap;
     padding: 40px;
     margin-top: 70px;
+    background: #dcf7f7;
     
 }
 .container .card{
@@ -363,7 +365,8 @@ section .fecility {
 }
 
 .container .card:hover{
-    height: 420px;
+    height: 500px;
+    background-color: #f9f8d0;
 
 }
 
@@ -391,13 +394,21 @@ section .fecility {
 .container .card .content{
     position: relative;
     margin-top: -140px;
-    padding: 10px 15px;
+    margin-bottom: 20px;
+    padding: 30px 15px;
     text-align: center;
     color: #111;
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
 
+}
+.container .card .content h2{
+    font-size: large;
+    padding: 10px 0;
+}
+.container .card .content p{
+    font-size: small;
 }
 
 .container .card:hover .content{
