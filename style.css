@@ -354,13 +354,13 @@ section .fecility {
 .container .card{
     position: relative;
     max-width: 180px;
-    height: 270px;
-    background: white;
+    height: 170px;
+    background: rgb(248, 242, 249);
     margin: 30px 10px;
     padding: 40px 50px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 5px 20px rgba(40, 40, 40, 0.866);
     transition: 0.5s ease-in-out;
 }
 
@@ -393,11 +393,11 @@ section .fecility {
 
 .container .card .content{
     position: relative;
-    margin-top: -140px;
+    margin-top: -100px;
     margin-bottom: 20px;
     padding: 30px 15px;
     text-align: center;
-    color: #111;
+    color: rgb(50, 50, 50);
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
