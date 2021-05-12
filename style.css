@@ -360,7 +360,7 @@ section .fecility {
     padding: 40px 50px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 20px rgba(40, 40, 40, 0.866);
+    box-shadow: 0 5px 20px rgba(40, 40, 40, 0.626);
     transition: 0.5s ease-in-out;
 }
 
@@ -379,7 +379,7 @@ section .fecility {
     height: 260px;
     top: -80px;
     left: -25px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 20px rgba(50, 50, 50, 0.599);
     z-index: 1;
 
 }
