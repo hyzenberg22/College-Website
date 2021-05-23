@@ -201,6 +201,7 @@ nav .fa{
 .course p{
     margin-bottom: 60px;
 }
+
 .course-col{
     flex-basis: 31%;
     background: rgb(255, 244, 244);
@@ -214,10 +215,14 @@ nav .fa{
     text-align: center;
     font-weight: 600;
     margin: 10px 0px;
+    color: black;
 }
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     transform: translateY(-10px);
+}
+.course_head p{
+    font-size: large;
 }
 @media(max-width:700px){
     .course h1{
@@ -478,6 +483,9 @@ section .fecility {
 
 .testimonial-col .fa{
     color: #f44336;
+}
+.testimonials h1{
+    margin-bottom: 25px;
 }
 
 @media(max-width :700px){
